@@ -14,35 +14,26 @@
 
     <title>Frontend Mentor | E-commerce product page</title>
     <link rel="stylesheet" href="style.css" />
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <header>
+      <div id="header-left">
+        <div id="logo">
+        <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+      </div>
       <nav>
-        <ul>
-          <li id="logo">
-            <a href="#"><img src="./images/logo.svg" alt="" /></a>
-          </li>
-          <li class="nav-links"><a href="#">Collections</a></li>
-          <li class="nav-links"><a href="#">Men</a></li>
-          <li class="nav-links"><a href="#">Women</a></li>
-          <li class="nav-links"><a href="#">About</a></li>
-          <li class="nav-links"><a href="#">Contact</a></li>
-        </ul>
+        <a class="nav-links" href="#">Collections</a>
+        <a class="nav-links" href="#">Men</a>
+        <a class="nav-links" href="#">Women</a>
+        <a class="nav-links" href="#">About</a>
+        <a class="nav-links" href="#">Contact</a>
       </nav>
-      <div id="cart"><img src="./images/icon-cart.svg" alt="cart" /></div>
-      <div id="profile">
-        <img src="./images/image-avatar.png" alt="avtar image" />
+      </div>
+      <div id="header-right">
+        <div id="cart"><img src="./images/icon-cart.svg" alt="cart" /></div>
+        <div id="profile">
+          <img src="./images/image-avatar.png" alt="avatar image" />
+        </div>
       </div>
     </header>
     <main>
@@ -86,8 +77,6 @@
         <button id="add-to-cart">Add to cart</button>
       </div>
     </main>
-
-        
 
     <div class="attribution">
       Challenge by
