@@ -38,24 +38,25 @@
     </header>
     <main>
       <div id="image-container">
-        <div id="large-image">
+        <div id="large-image-container">
           <img
             src="./images/image-product-1.jpg"
             alt="product image"
+            id="large-image"
           />
         </div>
         <div id="image-list" class="row">
-          <div class="column">
-            <img src="./images/image-product-1-thumbnail.jpg" alt="product-1" />
+          <div class="column active-column">
+            <img class="small-images active-image" src="./images/image-product-1-thumbnail.jpg" alt="product-1" />
           </div>
           <div class="column">
-            <img src="./images/image-product-2-thumbnail.jpg" alt="product-2" />
+            <img class="small-images" src="./images/image-product-2-thumbnail.jpg" alt="product-2" />
           </div>
           <div class="column">
-            <img src="./images/image-product-3-thumbnail.jpg" alt="product-3" />
+            <img class="small-images" src="./images/image-product-3-thumbnail.jpg" alt="product-3" />
           </div>
           <div class="column">
-            <img src="./images/image-product-4-thumbnail.jpg" alt="product-4" />
+            <img class="small-images" src="./images/image-product-4-thumbnail.jpg" alt="product-4" />
           </div>
         </div>
       </div>
@@ -87,5 +88,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Vinayak Suthar</a>.
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>

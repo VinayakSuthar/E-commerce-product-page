@@ -56,11 +56,11 @@ main {
   justify-content: space-between;
 }
 
-#large-image {
+#large-image-container {
   width: 430px;
 }
 
-#large-image img {
+#large-image-container img {
   width: 100%;
   border-radius: 15px;
 }
@@ -72,10 +72,22 @@ main {
   justify-content: space-between;
 }
 
+.column {
+  border-radius: 12px;
+  height: 85px;
+}
+
 #image-list img{
   width: 80px;
   border-radius: 10px;
   cursor: pointer;
+}
+
+.active-column {
+  border: 3px solid hsl(26, 100%, 55%);
+}
+.active-image {
+  opacity: 0.4;
 }
 
 #content {
@@ -160,6 +172,7 @@ main {
   width: 15px;
   margin-right: 10px;
 }
+
 
 .attribution {
   font-size: 11px;
