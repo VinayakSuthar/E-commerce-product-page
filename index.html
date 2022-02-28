@@ -19,15 +19,15 @@
     <header>
       <div id="header-left">
         <div id="logo">
-        <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
-      </div>
-      <nav>
-        <a class="nav-links" href="#">Collections</a>
-        <a class="nav-links" href="#">Men</a>
-        <a class="nav-links" href="#">Women</a>
-        <a class="nav-links" href="#">About</a>
-        <a class="nav-links" href="#">Contact</a>
-      </nav>
+          <a href="#"><img src="./images/logo.svg" alt="logo" /></a>
+        </div>
+        <nav>
+          <a class="nav-links" href="#">Collections</a>
+          <a class="nav-links" href="#">Men</a>
+          <a class="nav-links" href="#">Women</a>
+          <a class="nav-links" href="#">About</a>
+          <a class="nav-links" href="#">Contact</a>
+        </nav>
       </div>
       <div id="header-right">
         <div id="cart"><img src="./images/icon-cart.svg" alt="cart" /></div>
@@ -45,18 +45,34 @@
             id="large-image"
           />
         </div>
-        <div id="image-list" class="row">
+        <div class="row image-list">
           <div class="column active-column">
-            <img class="small-images active-image" src="./images/image-product-1-thumbnail.jpg" alt="product-1" />
+            <img
+              class="small-images active-image"
+              src="./images/image-product-1-thumbnail.jpg"
+              alt="product-1"
+            />
           </div>
           <div class="column">
-            <img class="small-images" src="./images/image-product-2-thumbnail.jpg" alt="product-2" />
+            <img
+              class="small-images"
+              src="./images/image-product-2-thumbnail.jpg"
+              alt="product-2"
+            />
           </div>
           <div class="column">
-            <img class="small-images" src="./images/image-product-3-thumbnail.jpg" alt="product-3" />
+            <img
+              class="small-images"
+              src="./images/image-product-3-thumbnail.jpg"
+              alt="product-3"
+            />
           </div>
           <div class="column">
-            <img class="small-images" src="./images/image-product-4-thumbnail.jpg" alt="product-4" />
+            <img
+              class="small-images"
+              src="./images/image-product-4-thumbnail.jpg"
+              alt="product-4"
+            />
           </div>
         </div>
       </div>
@@ -77,10 +93,60 @@
         </div>
         <div class="cart-box">
           <div class="quantity">0</div>
-          <button class="add-to-cart"><img src="./images/icon-cart-button.svg" alt="cart icon"> Add to cart</button>
+          <button class="add-to-cart">
+            <img src="./images/icon-cart-button.svg" alt="cart icon" /> Add to
+            cart
+          </button>
         </div>
       </div>
     </main>
+    <div id="modal">
+      <div class="modal-content">
+        <span class="close cursor" id="close">
+          <img src="./images/icon-close.svg" alt="close" />
+        </span>
+        <div class="slides">
+          <div class="slide"><img src="./images/image-product-1.jpg"/></div>
+          <div class="slide"><img src="./images/image-product-2.jpg"/></div>
+          <div class="slide"><img src="./images/image-product-3.jpg"/></div>
+          <div class="slide"><img src="./images/image-product-4.jpg"/></div>
+          <img src="./images/icon-next.svg" alt="next" id="next">
+          <img src="./images/icon-previous.svg" alt="previous" id="previous">
+        </div>
+
+
+        <div class="row image-list">
+          <div class="column active-column">
+            <img
+              class="thumbnails active-image"
+              src="./images/image-product-1-thumbnail.jpg"
+              alt="product-1"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="thumbnails"
+              src="./images/image-product-2-thumbnail.jpg"
+              alt="product-2"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="thumbnails"
+              src="./images/image-product-3-thumbnail.jpg"
+              alt="product-3"
+            />
+          </div>
+          <div class="column">
+            <img
+              class="thumbnails"
+              src="./images/image-product-4-thumbnail.jpg"
+              alt="product-4"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
     <div class="attribution">
       Challenge by

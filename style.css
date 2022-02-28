@@ -65,7 +65,7 @@ main {
   border-radius: 15px;
 }
 
-#image-list {
+.image-list {
   display: flex;
   width: 430px;
   margin-top: 30px;
@@ -77,7 +77,7 @@ main {
   height: 85px;
 }
 
-#image-list img{
+.image-list img {
   width: 80px;
   border-radius: 10px;
   cursor: pointer;
@@ -109,7 +109,7 @@ main {
 }
 
 #description {
-  color:hsl(219, 9%, 45%);
+  color: hsl(219, 9%, 45%);
   width: 450px;
   line-height: 24px;
   margin-top: 30px;
@@ -173,6 +173,67 @@ main {
   margin-right: 10px;
 }
 
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: auto 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  z-index: 1;
+}
+
+#close img {
+  width: 20px;
+}
+
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 430px;
+  padding-top: 100px;
+}
+
+#next,
+#previous {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  background-color: hsl(223, 64%, 98%);
+  padding: 15px 18px;
+  border-radius: 50%;
+  left: -25px;
+}
+
+#next {
+  left: auto;
+  right: -25px;
+}
+
+.slides {
+  position: relative;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 430px;
+  border-radius: 15px;
+}
 
 .attribution {
   font-size: 11px;
